@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <style>
+        table {
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        tr, td, th {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+            font-family: Consolas;
+        }
+        th {
+            font-family: 'Stylish', sans-serif;
+        }
+        tr:hover {
+            transform: scale(101%);
+            transition-duration: 500ms;
+            transition: ease-out;
+            box-shadow: 0 10px 20px grey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr style="background-color: grey;">
+            <th style="border-radius: 10px 0 0 0;">Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th style="border-radius: 0 10px 0 0;">Dialogue</th>
+        </tr>
+        <tr>
+            <td>Vijay</td>
+            <td>50</td>
+            <td>India</td>
+            <td>I'm Waiting</td>
+        </tr>
+        <tr>
+            <td>Rajinikanth</td>
+            <td>70</td>
+            <td>India</td>
+            <td>Naan veelvaen endru ninaithayo</td>
+        </tr>
+        <tr>
+            <td style="border-radius: 0 0 0 10px;">Mannivanan</td>
+            <td>75</td>
+            <td>India</td>
+            <td style="border-radius: 0 0 10px 0;">Dai Parama Padida</td>
+        </tr>
+    </table>
+</body>
+</html>

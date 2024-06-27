@@ -24,12 +24,14 @@ h4{
     display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 .b2{
-    background: linear-gradient(to right,#7F7FD5 , #91EAE4);
+    background: linear-gradient(#2E3192 , #1BFFFF);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 .profile{
 font-weight: 4000;
